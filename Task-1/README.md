@@ -16,12 +16,11 @@ It includes a header, hero section, and footer — designed with Flexbox and med
 
 ## 🧩 File Structure
 
-    ```bash
-    WebDevelopment/
-    └── Task-1/
-        ├── index.html       
-        ├── style.css        
-        └── README.md   
+📁WebDevelopment/
+└── 📁Task-1/
+    ├── 📜index.html       
+    ├── 📜style.css        
+    └── 📜README.md   
 
 ---
 
