@@ -1,43 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clean Responsive Landing Page</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Wave</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- ================= Header ================= -->
-    <header class="header">
-        <div class="logo">MyBrand</div>
-        <nav class="nav">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="logo">WebWave</div>
+    <nav class="nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <!-- ================= Hero Section ================= -->
-    <section class="hero">
-        <h1>Welcome to Our Landing Page</h1>
-        <p>We build simple, clean, and modern web experiences that look great on any device.</p>
-        <a href="#" class="cta-btn">Get Started</a>
-    </section>
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Design Your Digital Presence</h1>
+      <p>We craft stunning websites that look beautiful and perform brilliantly.</p>
+      <a href="#contact" class="cta-btn">Get Started</a>
+    </div>
+  </section>
 
-    <!-- ================= Footer ================= -->
-    <footer class="footer">
-        <p>Follow us on:</p>
-        <div class="social-links">
-            <a href="#">Facebook</a> |
-            <a href="#">Twitter</a> |
-            <a href="#">LinkedIn</a>
-        </div>
-        <p>&copy; 2025 MyBrand. All rights reserved.</p>
-    </footer>
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about" id="about">
+    <div class="about-text">
+      <h2>About Us</h2>
+      <p>WebWave is a creative web agency focused on building engaging digital experiences. We bring design and technology together to help businesses stand out online.</p>
+    </div>
+    <div class="about-img">
+      <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80" alt="Team working">
+    </div>
+  </section>
+
+  <!-- ===== SERVICES SECTION ===== -->
+  <section class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <img src="https://img.freepik.com/free-photo/web-design-technology-browsing-programming-concept_53876-163260.jpg?semt=ais_hybrid&w=600&q=80" alt="Web Design">
+        <h3>Web Design</h3>
+        <p>Beautiful, user-friendly designs that leave a lasting impression.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" alt="Web Development">
+        <h3>Web Development</h3>
+        <p>High-performing, scalable, and responsive web solutions.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80" alt="SEO Optimization">
+        <h3>SEO Optimization</h3>
+        <p>Boost your visibility and attract the right audience effortlessly.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Fill out the form below and we’ll get in touch.</p>
+    
+    <form class="contact-form">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="cta-btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2025 WebWave. All Rights Reserved.</p>
+    <div class="social-links">
+      <a href="https://www.facebook.com/">Facebook</a> |
+      <a href="https://www.x.com">Twitter</a> |
+      <a href="https://www.instagram.com">Instagram</a>
+    </div>
+  </footer>
 
 </body>
 </html>
