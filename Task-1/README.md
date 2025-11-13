@@ -18,9 +18,7 @@ It includes a header, hero section, and footer — designed with Flexbox and med
 📁 WebDevelopment/Task-1/
 
 ┣ 📜 index.html
-
 ┣ 📜 style.css
-
 ┗ 📜 README.md
 
 ---
@@ -28,7 +26,7 @@ It includes a header, hero section, and footer — designed with Flexbox and med
 ## 💻 How to Run
 1. Clone this repository or download the ZIP file:
    ```bash
-   git clone https://github.com/yourusername/responsive-landing-page.git
+   git clone https://github.com/nilesh0509/responsive-landing-page.git
 
 2. Open index.html in any web browser.
 
@@ -36,22 +34,26 @@ It includes a header, hero section, and footer — designed with Flexbox and med
 
 ## 🪄 Technologies Used
 
-HTML5
-
-CSS3 (Flexbox, Media Queries)
+- **HTML5** — Structure and semantics
+- **CSS3** — Styling and responsiveness
+    - Flexbox for layout
+    - Media Queries for mobile adaptabilit
 
 ---
 
 ## 📱 Responsive Design
 
-This page adapts to both desktop and mobile screen sizes using CSS media queries.
+This landing page adapts seamlessly to different screen sizes:
+- 🖥️ Desktop
+- 💻 Laptop
+- 📱 Tablet
+- 📲 Mobile
 
 ---
 
 ## 👨‍💻 Author
 
-Your Name
-GitHub Profile
+Nilesh
 
 ---
 
@@ -66,7 +68,7 @@ GitHub Profile
    git add .
    git commit -m "Initial commit - responsive landing page"
    git branch -M main
-   git remote add origin https://github.com/yourusername/responsive-landing-page.git
+   git remote add origin https://github.com/nilesh0509/responsive-landing-page.git
    git push -u origin main
 
 3. Verify that index.html, style.css, and README.md are visible on GitHub.
